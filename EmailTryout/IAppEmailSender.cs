@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.UI.Services;
-
-namespace EmailTryout
+﻿namespace EmailTryout
 {
-    public interface IAppEmailSender : IEmailSender
+    public interface IAppEmailSender
     {
         void SendEmail(Message message);
     }
